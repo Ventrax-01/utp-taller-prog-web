@@ -1,13 +1,73 @@
+<!--
+    
+    Contenido de la Semana 1 (Dictado en la semana 2 por Semana Santa)
+
+    HTML (HyperText Markup Language), es un lenguaje de etiquetas utilizado en el desarrollo de páginas web.
+    Es el esqueleto de la página web, donde se señalan los elementos a utilizar.
+    -------------------------------------------------------------------------------------------------------------------
+    Elementos:
+
+    Un elemento se representa mediante el uso de etiquetas. Dichas etiquetas, en la gran mayoría de casos, 
+    requieren señalar el inicio del elemento, y el final de este.
+
+        <p> Hola mundo </p>
+    
+    -------------------------------------------------------------------------------------------------------------------
+    Atributos:
+
+    Los elementos pueden contar con atributos, que denotan características de los elementos. Es recomendable
+    tener a la mano un lugar para acceder a información de dichos atributos como "www.w3school.com".
+
+        <h1 align = "center"></h1>   (atributo "align")
+
+    -------------------------------------------------------------------------------------------------------------------
+
+    La estructura actual de HTML5 cumple la siguiente estructura:
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+        </head>
+
+        <body>
+        </body>
+    </html>
+-->
+
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Semana 1</title>
+        
+        <!-- 
+            Elemento meta, describe la metadata de la página webNecesario para representacion de caracteres UTF-8.
+            Atributo charset, sirve para señala el charset a utilizar en nuestra página.
+        -->
+        <meta charset="utf-8"> 
+
+        <!-- Elemento "title", especifica un titulo para la página web. -->
+        <title>Semana 1</title> 
+
     </head>
-    
+
     <body>
-        <!-- h1,h2,h3,h4,h5,h6:  Encabezados. h1 representa un encabezado de mayor jerarquía y h6 menor jerarquía-->
-        <h1> Curso TPW </h1> 
-        <!-- p: parrafo -->
-        <p> Universidad Tecnológica del Perú</p>  
+        <!-- 
+            Etiquetas "h1", "h2" , "h3", "h4", "h5", "h6"  
+            Sirve para insertar un elemento "encabezado". 
+            El elemento h1 representa un encabezado de mayor jerarquía y va disminuyendo según el número.
+        -->
+        <h1 align="center"> Curso TPW </h1> 
+        
+        <!-- 
+            Etiqueta "p"
+            Sirve para insertar un elemento "parrafo".
+        -->
+        <p style="color:blue"> Universidad Tecnológica del Perú</p>  
+        
+        <!-- 
+            Etiqueta "a"
+            Sirve para insertar un elemento "hipervínculo". Se usa el atributo href para hacer referencia al
+            link donde se desea redirigir al usuario. 
+        -->
+        <a href = "https://www.utp.edu.pe">Ingresa a la página de la UTP. </a>
     </body>
 </html>
