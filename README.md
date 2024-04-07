@@ -19,6 +19,8 @@ Si deseas obtener más información sobre qué es GitHub y cómo funciona, te re
 
 [¿Qué es GitHub? Una Guía para Principiantes sobre GitHub ](https://kinsta.com/es/base-de-conocimiento/que-es-github/)
 
+[Video - Como clonar un repositorio (git clone) y descargar cambios (git pull)](https://www.youtube.com/watch?v=IWnW0svZ9JQ)
+
 ## 
 
 ¡Esperamos que este repositorio sea de gran ayuda para tu aprendizaje en el curso de Taller de Programación Web!
