@@ -1,4 +1,4 @@
-# Descripción del Proyecto
+# Descripción de la clase (Semana 1)
 
 Este es un ejemplo básico de una página HTML que utiliza diferentes elementos para mostrar contenido y funcionalidades variadas.
 
