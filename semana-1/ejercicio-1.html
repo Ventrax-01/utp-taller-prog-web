@@ -1,122 +1,51 @@
-<!--
-	
-	Contenido de la Semana 1 (Dictado en la Semana 2 por Semana Santa)
-
-	HTML (HyperText Markup Language), es un lenguaje de etiquetas utilizado en el desarrollo de páginas web.
-	Es el esqueleto de la página web, donde se señalan los elementos a utilizar.
-	-------------------------------------------------------------------------------------------------------------------
-	Elementos:
-
-	Un elemento se representa mediante el uso de etiquetas. Dichas etiquetas, en la gran mayoría de casos, 
-	requieren señalar el inicio del elemento, y el final de este.
-
-		<p> Hola mundo </p>
-	
-	-------------------------------------------------------------------------------------------------------------------
-	Atributos:
-
-	Los elementos pueden contar con atributos, que denotan características de los elementos. Es recomendable
-	tener a la mano un lugar para acceder a información de dichos atributos como "www.w3school.com".
-
-		<h1 align = "center"></h1>   (atributo "align")
-
-	-------------------------------------------------------------------------------------------------------------------
-
-	Una página web HTML5 cumple la siguiente estructura:
-
-	<!DOCTYPE html>
-	<html>
-		<head>
-		</head>
-
-		<body>
-		</body>
-	</html>
--->
-
 <!DOCTYPE html>
 <html>
-<head>
 
-	<!-- 
-			Elemento meta, describe la metadata de la página webNecesario para representacion de caracteres UTF-8.
-			Atributo charset, sirve para señala el charset a utilizar en nuestra página.
-		-->
-	<meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
+		<title>Semana 1</title>
+	</head>
 
-	<!-- Elemento "title", especifica un titulo para la página web. -->
-	<title>Semana 1</title>
+	<body>
+		<h1 align="center"> Curso TPW </h1>
+		<p style="color: brown"> Universidad Tecnológica del Perú</p>
+		<a href="https://www.utp.edu.pe" target="_blank">Ingresa a la página de la UTP. </a>
+		<br>
+		<br> 	
+		<img src="ubuntu-logo.png">
+		<hr>
+		<h1> Encabezado h1</h1>
+		<ul>
+			<li>Elemento 1</li>
+			<li>Elemento 2</li>
+			<li>Elemento 3</li>
+		</ul>
+		<h2> Encabezado h2</h2>
+		<ol>
+			<li>Elemento 1</li>
+			<li>Elemento 2</li>
+			<li>Elemento 3</li>
+		</ol>
+		<h3> Encabezado h3</h3>
+		<h4> Encabezado h4</h4>
+		<h5> Encabezado h5</h5>
+		<h6> Encabezado h6</h6>
+		<hr>
 
-</head>
-
-<body>
-	<!-- 
-			Etiquetas "h1", "h2" , "h3", "h4", "h5", "h6"  
-			Sirve para insertar un elemento "encabezado". 
-			El elemento h1 representa un encabezado de mayor jerarquía y va disminuyendo según el número.
-		-->
-	<h1 align="center"> Curso TPW </h1>
-
-	<!-- 
-			Etiqueta "p"
-			Sirve para insertar un elemento "parrafo".
-		-->
-	<p style="color: brown"> Universidad Tecnológica del Perú</p>
-
-	<!-- 
-			Etiqueta "a"
-			Sirve para insertar un elemento "hipervínculo". 
-			Se usa el atributo "href" para hacer referencia al link donde se desea redirigir al usuario. 
-			Se usa el atributo "target" para especificar donde abrir el link en cuestión.
-		-->
-	<a href="https://www.utp.edu.pe" target="_blank">Ingresa a la página de la UTP. </a>
-
-	<!--
-			Existen multiples elementos como mencionamos anteriormente. A continuación incluiremos otros nuevos.
-		-->
-
-	<br> <!-- La etiqueta "br" indica un salto de linea --> 	
-	<br> 	
-	<img src="ubuntu-logo.png">
-
-	<hr>	<!-- La etiqueta "hr" inserta una linea -->
-
-	<h1> Encabezado h1</h1>
-	<ul> <!-- La etiqueta "ul" indica un listado no ordenada (bullets) --> 
-		<li>Elemento 1</li> <!-- La etiqueta "li" indica un elemento de la lista --> 
-		<li>Elemento 2</li>
-		<li>Elemento 3</li>
-	</ul>
-	<h2> Encabezado h2</h2>
-	<ol> <!-- La etiqueta "ol" indica un listado ordenado (numeros) --> 
-		<li>Elemento 1</li>
-		<li>Elemento 2</li>
-		<li>Elemento 3</li>
-	</ol>
-	<h3> Encabezado h3</h3>
-	<h4> Encabezado h4</h4>
-	<h5> Encabezado h5</h5>
-	<h6> Encabezado h6</h6>
-	<hr>
-	<table> 					<!-- La etiqueta "table" indica una tabla --> 
-		<tr>					<!-- La etiqueta "tr" (table row) indica 
-									 una fila (encabezado o dato)--> 
-			<th>Columna 1</th>	<!-- La etiqueta "th" indica un encabezado --> 
-			<th>Columna 2</th>
-		</tr>
-		<tr>
-			<td>Dato 1</td>		<!-- La etiqueta "td" indica una celda de datos -->
-			<td>Dato 2</td>
-		</tr>
+		<table>
+			<tr>
+				<th>Columna 1</th>
+				<th>Columna 2</th>
+			</tr>
+			<tr>
+				<td>Dato 1</td>
+				<td>Dato 2</td>
+			</tr>
+			<tr>
+				<td>Dato 3</td>
+				<td>Dato 4</td>
+			</tr>
+		</table>
 		
-		<tr>
-			<td>Dato 3</td>
-			<td>Dato 4</td>
-		</tr>
-
-	</table>
-	
-
-</body>
-
+	</body>
 </html> 
